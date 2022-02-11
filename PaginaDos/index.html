@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css\style.css">
+	<title>Operaciones Matematicas</title>
+</head>
+<body>
+	<h1 align="center">Operaciones aritmeticas con JavaScript</h1>
+	<div class="contenedor">
+		<p>Ingrese un numero</p>
+		<input id="Num1" type="text" >
+		<p>Ingrese un segundo numero</p>
+		<input id="Num2" type="text" >
+		<div class="botones">
+			<button id="botonSumar" name="Boton Sumar" onclick="suma(document.getElementById('Num1').value,document.getElementById('Num2').value);">Sumar</button>
+			<button id="botonResta" name="Boton restar" onclick="resta(document.getElementById('Num1').value,document.getElementById('Num2').value);">Resta</button>
+			<button id="botonMultiplicar" name="Boton Multiplicarse" onclick="multiplicar(document.getElementById('Num1').value,document.getElementById('Num2').value);">Multiplicacion</button>
+			<button id="botonDividir" name="Boton Dividir" onclick="resta(document.getElementById('Num1').value,document.getElementById('Num2').value);">Division</button>
+		</div>
+		<div  class="resul "id=resultados><label id="Resultado"></label> </div>
+	</div>
+	
+
+
+<script src="js/uno.js"></script> 	
+</body>
+</html

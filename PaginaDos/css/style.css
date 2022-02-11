@@ -1,0 +1,24 @@
+body{
+	background-color: lightgray;
+}
+
+.contenedor{
+	border-style:dashed;
+	background-color:white;
+	margin: 0 auto;
+    width: 700px; 
+    height: 500px;
+    left: 0;
+    top:0;
+    text-align: center;
+}
+
+.botones{
+	margin: 30px;
+}
+
+p{
+	font-size: 30px;
+	font-family: monospace;
+}
+
